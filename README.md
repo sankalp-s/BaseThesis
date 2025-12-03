@@ -513,8 +513,4 @@ Redis Cache
 - Kafka stream processing
 - Redis Cluster (multi-node)
 - Microservices separation
-- [Deployment Guide](DEPLOYMENT_GUIDE.md)
-- [Run Tests](test_comprehensive.py)
-- [API Documentation](production_api.py)
 
-**Star this repo if you find it useful!**

@@ -1,21 +1,16 @@
 # Unified Conversational Memory System
 
-**Production-Ready Hybrid Intelligence: Pattern Matching + LLM + Entity Linking + Adaptive Learning**
 
-## Complete Four-Layer Architecture
+## Four-Layer Architecture
 
 - **Layer 1:** Pattern-based classification (<1ms, handles 85-90% of statements)
 - **Layer 2:** LLM semantic fallback (200-500ms, handles novel phrasings, 10-15% usage)
 - **Layer 3:** Entity linking (cross-turn coherence, "my daughter" → "she" → "Emily")
 - **Layer 4:** Adaptive learning (user-specific weight personalization)
 
-**Status:** Production Ready | **Integration:** 7/7 Tests Passing | **Performance:** <100ms/conversation | **Cost:** $0.01/conversation
-
----
-
 ## What This Is
 
-A **production-ready hybrid memory system** that combines deterministic pattern matching with machine learning to make human-like retention decisions:
+A **hybrid memory system** that combines deterministic pattern matching with machine learning to make human-like retention decisions:
 
 - **Critical context** (medical, safety, identity) → Long-term memory (weeks/months)
 - **Working details** (logistics, goals, preferences) → Short-term memory (1-5 turns)
@@ -61,8 +56,6 @@ A **four-layer hybrid intelligence stack** that delivers:
 - Online learning from feedback: "you forgot X" → boost that pattern
 - Addresses cultural bias: "I'm fasting for Ramadan" importance varies by user
 - Per-user storage with feedback history tracking
-
-**Key Insight:** Production-grade memory emerges from **layered intelligence**—fast deterministic rules + selective LLM application + structural coherence + personalization.
 
 ## Quick Start
 
@@ -422,7 +415,7 @@ Basethesis/
 
 ### Enhancement Roadmap
 
-**Completed (Production-Ready)**
+**Completed**
 - Severity scoring (severity modifiers: +5 for "severe", "life-threatening")
 - Entity linking ("my daughter" → "she" → "Emily" linked as single entity)
 - Emotional tone detection (LLM triggers on "terrifies", "devastated", "thrilled")
@@ -430,14 +423,14 @@ Basethesis/
 - User-specific weight learning (adaptive learning from feedback)
 - Production API architecture (FastAPI + PostgreSQL schema ready)
 
-**Tier 2: Enhancements (1-3 weeks each)**
+**Tier 2: Enhancements**
 - Cross-session entity persistence (PostgreSQL integration)
 - Advanced neural coreference (spaCy NER + neuralcoref)
 - Multi-language pattern registries (Spanish, French, etc.)
 - Semantic memory retrieval (query → relevant memories)
 - Real-time feedback UI (inline corrections, importance sliders)
 
-**Tier 3: Advanced Features (1-2 months each)**
+**Tier 3: Advanced Features**
 - Fine-tuned LLM for domain-specific importance
 - Memory consolidation (merge duplicate information)
 - Compound inference rules ("alone" + "fall" → safety concern)
@@ -450,8 +443,6 @@ Basethesis/
 - Real-time voice processing (text-only system)
 
 ## Production Deployment
-
-### Current Status: Production-Ready
 
 **What's operational:**
 - FastAPI REST endpoints (`production_api.py`)

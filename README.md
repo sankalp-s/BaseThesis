@@ -344,9 +344,6 @@ Basethesis/
 │
 └── Documentation
     ├── README.md                     # This file
-    ├── TECHNICAL_WRITEUP_FINAL.md    # Complete technical analysis (4,200 words)
-    ├── DEPLOYMENT_GUIDE.md           # Production deployment
-    └── [Other guides...]
 ```
 
 ## Key Design Decisions

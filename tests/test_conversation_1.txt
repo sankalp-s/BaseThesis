@@ -1,0 +1,20 @@
+assistant: Hi! Welcome back. How can I help you today?
+user: Hi! I'm planning a trip to Japan in March. I'm so excited!
+assistant: That sounds wonderful! Have you been to Japan before?
+user: No, first time. I love trying new foods, so I'm really looking forward to the sushi and ramen.
+assistant: The food scene in Japan is incredible. Are you planning to visit Tokyo?
+user: Yes, Tokyo for sure, and maybe Kyoto. I'm thinking of flying direct from LA.
+assistant: Great choices! The flight is about 11 hours from LA to Tokyo.
+user: Actually, I need to tell you something important. I have severe panic attacks on airplanes. Like, really bad. I had one last year that was terrifying.
+assistant: I understand. That must be challenging. Have you considered any coping strategies?
+user: Yeah, my therapist recommended medication, but I'm still figuring that out. The thing is, I said I love sushi earlier, but I actually can't eat it anymore.
+assistant: Oh, what changed?
+user: I developed a shellfish allergy six months ago. Had to go to the ER after eating shrimp. It was scary. So no more sushi for me.
+assistant: I'm sorry to hear that. That's definitely important to remember. Are there other foods you need to avoid?
+user: Just shellfish. But honestly, I'm more worried about the flight than the food. My daughter starts kindergarten right after I get back, so I can't miss this trip.
+assistant: Your daughter is starting kindergarten? That's exciting!
+user: Yeah, she's five. It's a big milestone. But back to the flight thing, do you have any advice?
+assistant: For flight anxiety, some people find it helpful to inform the flight crew beforehand. Also, what's your favorite color?
+user: Um, blue I guess? But seriously, can we focus on the flight anxiety issue? This is really important to me.
+assistant: Of course, I apologize. Given your panic attack history on planes, have you looked into therapy specifically for flight anxiety?
+user: My therapist actually specializes in PTSD and anxiety disorders. We've been working on it. I have PTSD from a car accident three years ago too, so flying isn't my only trigger.

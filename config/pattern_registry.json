@@ -1,0 +1,38 @@
+{
+  "critical": [
+    {"pattern": "\\b(allerg(?:y|ies|ic)|medical condition|diagnosed|disease|disorder|syndrome)\\b", "category": "medical", "weight": 15, "enabled": true},
+    {"pattern": "\\b(panic attack|anxiety|PTSD|trauma|phobia|depression)\\b", "category": "mental_health", "weight": 20, "enabled": true},
+    {"pattern": "\\b(medication|prescription|treatment|therapy)\\b", "category": "medical_treatment", "weight": 12, "enabled": true},
+    {"pattern": "\\b(afraid|fear|terrified|scared|danger|unsafe)\\b", "category": "safety_concern", "weight": 18, "enabled": true},
+    {"pattern": "\\b(emergency|urgent|critical|life-threatening)\\b", "category": "emergency", "weight": 25, "enabled": true},
+    {"pattern": "\\b(my name is|I'm called|call me)\\b", "category": "identity", "weight": 20, "enabled": true},
+    {"pattern": "\\b(I am|I'm) (a |an )?\\w+ (person|man|woman)\\b", "category": "identity", "weight": 15, "enabled": true},
+    {"pattern": "\\b(born|birthday|age \\d+|years old)\\b", "category": "personal_info", "weight": 10, "enabled": true},
+    {"pattern": "\\b(my (wife|husband|partner|spouse|child|son|daughter|mother|father|parent))\\b", "category": "family", "weight": 14, "enabled": true},
+    {"pattern": "\\b(married|divorced|widowed|relationship)\\b", "category": "relationship_status", "weight": 12, "enabled": true},
+    {"pattern": "\\b(died|death|passed away|funeral|loss|grief)\\b", "category": "grief", "weight": 18, "enabled": true},
+    {"pattern": "\\b(pregnant|expecting|baby|birth)\\b", "category": "major_life_event", "weight": 16, "enabled": true},
+    {"pattern": "\\b(job loss|fired|laid off|unemployed)\\b", "category": "major_life_event", "weight": 14, "enabled": true},
+    {"pattern": "\\b(never|always|hate|love|cannot|can't stand)\\b", "category": "strong_preference", "weight": 12, "enabled": true},
+    {"pattern": "\\b(vegetarian|vegan|kosher|halal|dietary)\\b", "category": "dietary", "weight": 13, "enabled": true},
+    {"pattern": "\\b(can't|cannot|don't|no longer|stopped) (eat|have|consume)\\b", "category": "dietary_restriction", "weight": 10, "enabled": true},
+    {"pattern": "\\b(used to|no longer|stopped|quit|gave up)\\b", "category": "life_change", "weight": 12, "enabled": true},
+    {"pattern": "\\b(was|were) (married|employed|working|living)\\b", "category": "past_status", "weight": 12, "enabled": true},
+    {"pattern": "\\b(divorced|separated|fired|laid off|quit)\\b", "category": "status_change", "weight": 12, "enabled": true},
+    {"pattern": "\\b(sometimes|occasionally|rarely) (drink|eat|do|go)\\b", "category": "occasional_behavior", "weight": 8, "enabled": true}
+  ],
+  "contextual": [
+    {"pattern": "\\b(goal|plan|want to|need to|trying to)\\b", "category": "goal", "weight": 8, "enabled": true},
+    {"pattern": "\\b(prefer|like|enjoy|interested in|dislike|hate)\\b", "category": "preference", "weight": 6, "enabled": true},
+    {"pattern": "\\b(meeting|appointment|schedule|calendar)\\b", "category": "logistics", "weight": 7, "enabled": true},
+    {"pattern": "\\b(address|phone|email|contact)\\b", "category": "contact_info", "weight": 9, "enabled": true},
+    {"pattern": "\\b(work at|job|career|profession)\\b", "category": "career", "weight": 10, "enabled": true}
+  ],
+  "ephemeral": [
+    {"pattern": "\\b(hello|hi|hey|goodbye|bye|see you)\\b", "category": "greeting", "weight": -5, "enabled": true},
+    {"pattern": "\\b(yes|no|okay|ok|sure|maybe|perhaps)\\b", "category": "confirmation", "weight": -3, "enabled": true},
+    {"pattern": "\\b(um|uh|like|you know|I mean)\\b", "category": "filler", "weight": -8, "enabled": true},
+    {"pattern": "\\b(thanks|thank you|please)\\b", "category": "pleasantry", "weight": -4, "enabled": true},
+    {"pattern": "\\b(what|when|where|why|how)\\b", "category": "question_word", "weight": -2, "enabled": true}
+  ]
+}

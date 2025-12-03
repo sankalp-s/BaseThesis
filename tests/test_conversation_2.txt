@@ -1,0 +1,26 @@
+assistant: Good morning! How are you doing today?
+user: Good morning! I'm doing well. Just got back from my morning run.
+assistant: That's great! Do you run regularly?
+user: Yeah, I try to run every morning. It helps me clear my head before work.
+assistant: What do you do for work?
+user: I'm a software engineer at a startup. We're building AI tools for healthcare.
+assistant: That sounds interesting. How long have you been in that role?
+user: About three years now. I actually got promoted to senior engineer last month, which is why I'm extra busy these days.
+assistant: Congratulations on the promotion! That's a big achievement.
+user: Thanks! My husband and I celebrated with a nice dinner. He's been really supportive through all the late nights.
+assistant: That's wonderful to have that support. Do you have any pets?
+user: We have a cat named Whiskers. He's pretty old now, about 15 years.
+assistant: Wow, that's a good age for a cat!
+user: Yeah, we've had him since college. My daughter absolutely adores him.
+assistant: How old is your daughter?
+user: She just turned seven last week. We had a big birthday party with all her school friends.
+assistant: That sounds fun! What grade is she in?
+user: Second grade. She's doing really well, especially in math. Takes after me, I guess.
+assistant: It's great that she enjoys math! Do you help her with homework?
+user: When I can. Between my promotion and everything, it's been tough to balance. Actually, I wanted to ask about something completely different.
+assistant: Sure, what's on your mind?
+user: Remember when I mentioned my promotion a few minutes ago? Well, there's a catch. The role requires me to relocate to Boston in six months.
+assistant: Oh, that's a big change! How do you feel about that?
+user: Nervous but excited. My husband works remotely, so that's flexible, but we'll have to pull our daughter out of her school mid-year. And honestly, I'm worried about Whiskers. He's not going to handle a cross-country move well at his age.
+assistant: Those are valid concerns. Have you started looking at schools in Boston?
+user: Not yet. We just found out last week, right around my daughter's birthday actually. It's been a lot to process.
